@@ -48,6 +48,16 @@ const TabNavigator = (): JSX.Element => (
       options={{
         header: () => null,
         tabBarLabel: 'Home',
+        animation: "shift"
+      }}
+    />
+    <Tab.Screen
+      name="NetworkLoggerScreen"
+      component={NetworkLoggerScreen}
+      options={{
+        header: () => null,
+        tabBarLabel: 'Log',
+        animation: "shift"
       }}
     />
   </Tab.Navigator>
