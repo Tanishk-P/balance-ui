@@ -1,4 +1,4 @@
-package com.balance-ui
+package com.balanceui
 
 import android.app.Application
 import com.facebook.react.PackageList
